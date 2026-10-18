@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>20/10 — Happy Women's Day 🌷</title>
+  <meta name="description" content="Tri ân ngày Phụ nữ Việt Nam 20/10 — 22 bài toán, 22 lời giải đặc biệt dành cho các bạn." />
+  <meta name="theme-color" content="#f2a7b3" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============================
+       INTRO — MÀN HÌNH CHÀO MỪNG
+       ============================ -->
+  <div class="intro" id="intro">
+    <!-- Hiệu ứng nền mờ lấp lánh -->
+    <div class="intro__bg-orbs">
+      <div class="intro__orb intro__orb--1"></div>
+      <div class="intro__orb intro__orb--2"></div>
+      <div class="intro__orb intro__orb--3"></div>
+    </div>
+
+    <!-- Trang trí các góc và 2 bên -->
+    <div class="intro__deco" aria-hidden="true">
+      <span class="intro__deco-item intro__deco-item--tl">🌸</span>
+      <span class="intro__deco-item intro__deco-item--tr">🌷</span>
+      <span class="intro__deco-item intro__deco-item--ml">✨</span>
+      <span class="intro__deco-item intro__deco-item--mr">💖</span>
+      <span class="intro__deco-item intro__deco-item--bl">🦋</span>
+      <span class="intro__deco-item intro__deco-item--br">🌺</span>
+    </div>
+
+    <!-- Lớp làm mờ background (sẽ bị đục lỗ và xóa dần theo gợn sóng) -->
+    <div class="intro__blur-layer"></div>
+
+    <!-- Hiệu ứng giọt nước và đa gợn sóng -->
+    <div class="intro__drop-container">
+      <div class="intro__drop"></div>
+      <div class="intro__ripple intro__ripple--1"></div>
+      <div class="intro__ripple intro__ripple--2"></div>
+      <div class="intro__ripple intro__ripple--3"></div>
+    </div>
+    
+    <!-- Nội dung lời chào -->
+    <div class="intro__content">
+      <h1 class="intro__title">Xin Chào</h1>
+      <p class="intro__subtitle">Trang web này được tạo ra nhằm mục đích gửi lời tri ân đến các bạn nữ lớp 9A1 nhân ngày 20/10</p>
+    </div>
+  </div>
+
+  <!-- ============================
+       HERO — MÀN HÌNH ĐẦU TIÊN
+       ============================ -->
+  <section class="hero" id="hero">
+    <!--
+      HOA & TRANG TRÍ NỔI hai bên hero
+      Thêm/bớt/đổi emoji tuỳ ý. Vị trí chỉnh qua class --n (CSS).
+    -->
+    <div class="hero__deco" aria-hidden="true">
+      <span class="hero__deco-item hero__deco-item--1">🌸</span>
+      <span class="hero__deco-item hero__deco-item--2">💖</span>
+      <span class="hero__deco-item hero__deco-item--3">🌷</span>
+      <span class="hero__deco-item hero__deco-item--4">⭐</span>
+      <span class="hero__deco-item hero__deco-item--5">🌺</span>
+      <span class="hero__deco-item hero__deco-item--6">💗</span>
+      <span class="hero__deco-item hero__deco-item--7">🌼</span>
+      <span class="hero__deco-item hero__deco-item--8">✿</span>
+      <span class="hero__deco-item hero__deco-item--9">💕</span>
+      <span class="hero__deco-item hero__deco-item--10">🌻</span>
+      <span class="hero__deco-item hero__deco-item--11">🦋</span>
+      <span class="hero__deco-item hero__deco-item--12">🌹</span>
+    </div>
+
+    <!-- Dòng ngày lớn -->
+    <div class="hero__date-wrap">
+      <span class="hero__petal hero__petal--1" aria-hidden="true">🌸</span>
+      <span class="hero__petal hero__petal--2" aria-hidden="true">🌷</span>
+      <span class="hero__petal hero__petal--3" aria-hidden="true">💐</span>
+      <span class="hero__sparkle hero__sparkle--l" aria-hidden="true">✨</span>
+      <p class="hero__date">20 / 10</p>
+      <span class="hero__sparkle hero__sparkle--r" aria-hidden="true">✨</span>
+    </div>
+
+    <!-- Badge lớp -->
+    <span class="hero__badge">Lớp 9A1</span>
+
+    <!-- Tiêu đề -->
+    <h1 class="hero__title">Happy Women's Day</h1>
+
+    <!-- Dòng phụ -->
+    <p class="hero__subtitle">Một chút điều đặc biệt dành cho các bạn 🌷</p>
+
+    <!-- Khung ảnh lướt nhanh ở Hero -->
+    <div class="hero__gallery">
+      <!-- Ảnh cô giáo nổi bật có vương miện và viền vàng -->
+      <div class="hero__photo hero__photo--teacher" onclick="openLightbox('images/ảnh cô giáo chủ nghiệm_1.jpg')">
+        <div class="hero__photo-badge">👑 Cô Chủ Nhiệm</div>
+        <img src="images/ảnh cô giáo chủ nghiệm_1.jpg" alt="Cô giáo chủ nhiệm 9A1" width="240" height="320" loading="lazy" />
+        <span class="hero__photo-caption">💖 Cô Chủ Nhiệm</span>
+      </div>
+      <div class="hero__photo hero__photo--tilt-left" onclick="openLightbox('images/ảnh lớp_1.jpg')">
+        <img src="images/ảnh lớp_1.jpg" alt="Ảnh lớp 1" width="240" height="320" loading="lazy" />
+        <span class="hero__photo-caption">📸 Nụ cười 9A1</span>
+      </div>
+      <div class="hero__photo hero__photo--tilt-right" onclick="openLightbox('images/ảnh lớp_2.jpg')">
+        <img src="images/ảnh lớp_2.jpg" alt="Ảnh lớp 2" width="240" height="320" loading="lazy" />
+        <span class="hero__photo-caption">📸 Gắn kết</span>
+      </div>
+      <div class="hero__photo" onclick="openLightbox('images/ảnh lớp_3.jpg')">
+        <img src="images/ảnh lớp_3.jpg" alt="Ảnh lớp 3" width="240" height="320" loading="lazy" />
+        <span class="hero__photo-caption">📸 Tỏa sáng</span>
+      </div>
+      <div class="hero__photo hero__photo--tilt-left" onclick="openLightbox('images/ảnh lớp 4.jpg')">
+        <img src="images/ảnh lớp 4.jpg" alt="Ảnh lớp 4" width="240" height="320" loading="lazy" />
+        <span class="hero__photo-caption">📸 Kỷ niệm</span>
+      </div>
+      <div class="hero__photo hero__photo--tilt-right" onclick="openLightbox('images/ảnh lớp_5.jpg')">
+        <img src="images/ảnh lớp_5.jpg" alt="Ảnh lớp 5" width="240" height="320" loading="lazy" />
+        <span class="hero__photo-caption">📸 Mãi bên nhau</span>
+      </div>
+    </div>
+
+    <!-- Lời chúc -->
+    <blockquote class="hero__message">
+      <p>
+        Nhân ngày 20/10, xin gửi những lời chúc tốt đẹp và chân thành nhất
+        đến một nửa thế giới. Cảm ơn các bạn vì sự hiện diện rạng rỡ, dịu
+        dàng nhưng cũng đầy bản lĩnh, đã luôn mang lại niềm vui, sự ấm áp
+        và tô điểm cho cuộc sống này thêm phần tươi đẹp. Chúc các bạn luôn
+        luôn xinh đẹp, tràn đầy năng lượng, giữ mãi nụ cười trên môi và luôn
+        tự tin tỏa sáng theo cách riêng của mình trên con đường phía trước.
+        <em>Happy Vietnamese Women's Day!</em>
+      </p>
+      <cite>— Phạm Minh Đan</cite>
+    </blockquote>
+
+    <!-- Nút MỞ -->
+    <button class="hero__btn" id="open-btn" onclick="onOpenClick()">
+      🎁 Khám Phá Kỷ Niệm 9A1 ✨
+    </button>
+
+    <!-- Mũi tên gợi ý cuộn xuống -->
+    <div class="hero__scroll-hint" aria-hidden="true" onclick="onOpenClick()" style="cursor: pointer;">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SPOTLIGHT ĐẶC BIỆT: CÔ GIÁO CHỦ NHIỆM 9A1
+       Nổi bật nhất trang web với hào quang lộng lẫy
+       ========================================== -->
+  <section class="teacher-spotlight" id="teacher-spotlight">
+    <!-- Họa tiết trang trí nền -->
+    <div class="teacher-spotlight__glow" aria-hidden="true"></div>
+    <div class="teacher-spotlight__petals" aria-hidden="true">
+      <span class="ts-petal ts-petal--1">🌸</span>
+      <span class="ts-petal ts-petal--2">✨</span>
+      <span class="ts-petal ts-petal--3">🌹</span>
+      <span class="ts-petal ts-petal--4">💖</span>
+      <span class="ts-petal ts-petal--5">👑</span>
+      <span class="ts-petal ts-petal--6">🌷</span>
+    </div>
+
+    <div class="teacher-spotlight__container">
+      <!-- Tiêu đề tôn vinh -->
+      <div class="teacher-spotlight__header">
+        <div class="teacher-spotlight__badge">
+          <span>👑 NGƯỜI LÁI ĐÒ KÍNH YÊU</span>
+        </div>
+        <h2 class="teacher-spotlight__heading">
+          Tri Ân Cô Giáo Chủ Nhiệm Lớp 9A1
+        </h2>
+        <p class="teacher-spotlight__subheading">
+          Bông hoa ngát hương, ngọn hải đăng dịu dàng và ấm áp nhất trong lòng chúng em 💐
+        </p>
+      </div>
+
+      <!-- Nội dung chính: Ảnh cô cực nổi bật + Thư tri ân ý nghĩa -->
+      <div class="teacher-spotlight__card">
+        <!-- Khung ảnh cô giáo VIP -->
+        <div class="teacher-photo-frame">
+          <div class="teacher-photo-frame__halo"></div>
+          <div class="teacher-photo-frame__inner" onclick="openLightbox('images/ảnh cô giáo chủ nghiệm_1.jpg')">
+            <div class="teacher-photo-frame__ribbon">
+              <span>💎 Bông Hoa 9A1</span>
+            </div>
+            <img
+              class="teacher-photo-frame__img"
+              src="images/ảnh cô giáo chủ nghiệm_1.jpg"
+              alt="Cô giáo chủ nhiệm lớp 9A1"
+              loading="lazy"
+            />
+            <div class="teacher-photo-frame__overlay-hint">
+              <span>🔍 Nhấn để xem ảnh lớn</span>
+            </div>
+          </div>
+          <p class="teacher-photo-frame__caption">
+            🌸 Cô Giáo Chủ Nhiệm Lớp 9A1 🌸
+          </p>
+        </div>
+
+        <!-- Thư tri ân gửi cô -->
+        <div class="teacher-letter">
+          <div class="teacher-letter__badge">💌 Lời Tri Ân Từ Trái Tim</div>
+          <h3 class="teacher-letter__title">
+            Gửi Đến Cô — Người Mẹ Thứ Hai Dưới Mái Trường
+          </h3>
+          <p class="teacher-letter__lead">
+            Nhân ngày Phụ nữ Việt Nam 20/10, tập thể lớp 9A1 xin gửi tới Cô — người phụ nữ đặc biệt và đáng kính nhất của đại gia đình chúng em — muôn vàn lời chúc tốt đẹp, lòng biết ơn sâu sắc cùng tình cảm chân thành nhất!
+          </p>
+          <div class="teacher-letter__body">
+            <p>
+              Cảm ơn Cô vì đã luôn nhẫn nại, tận tụy chỉ dạy chúng em không chỉ những con chữ, những công thức bài học, mà còn cả những bài học làm người quý giá. Từng ánh mắt khích lệ, từng lời dặn dò ân cần của Cô trong những giờ sinh hoạt, những buổi học căng thẳng đã trở thành điểm tựa vững chắc tiếp thêm niềm tin và sức mạnh cho mỗi thành viên 9A1.
+            </p>
+            <p>
+              Năm tháng lớp 9 có bao thử thách phía trước, nhưng có Cô đồng hành dẫn lối, chúng em luôn cảm thấy tự tin và ấm áp vô cùng.
+            </p>
+          </div>
+
+          <!-- 3 Phẩm chất tri ân -->
+          <div class="teacher-letter__features">
+            <div class="teacher-feature">
+              <span class="teacher-feature__icon">🌹</span>
+              <div class="teacher-feature__text">
+                <strong>Tận Tụy Sớm Khuya</strong>
+                <p>Luôn hết lòng vì từng học trò, chăm lo từng bước trưởng thành.</p>
+              </div>
+            </div>
+            <div class="teacher-feature">
+              <span class="teacher-feature__icon">🌻</span>
+              <div class="teacher-feature__text">
+                <strong>Bao Dung & Ấm Áp</strong>
+                <p>Nụ cười hiền hậu che chở, thấu hiểu những tâm tư tuổi học trò.</p>
+              </div>
+            </div>
+            <div class="teacher-feature">
+              <span class="teacher-feature__icon">✨</span>
+              <div class="teacher-feature__text">
+                <strong>Ngọn Đèn Dẫn Lối</strong>
+                <p>Thắp sáng ước mơ và truyền cảm hứng bất tận cho tập thể 9A1.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lời chúc đặc biệt -->
+          <div class="teacher-letter__wish-box">
+            <p>
+              🎉 <strong>Kính chúc Cô:</strong> Luôn dồi dào sức khỏe, tràn đầy niềm vui, luôn tươi trẻ, hạnh phúc và mãi giữ nụ cười rạng rỡ trên môi. Chúc Cô có một ngày 20/10 thật ngọt ngào, ấm áp bên gia đình và đàn con thân yêu của 9A1!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       HÀNH TRÌNH THANH XUÂN — KỶ NIỆM LỚP 9A1
+       Giao diện dài với ghi chú ý nghĩa bên cạnh từng ảnh
+       ========================================== -->
+  <section class="story-stream" id="story-stream">
+    <div class="story-stream__intro">
+      <span class="story-stream__badge">📸 KỶ NIỆM ĐÁNG NHỚ</span>
+      <h2 class="story-stream__heading">Hành Trình Thanh Xuân Của 9A1</h2>
+      <p class="story-stream__subheading">
+        Từng bức ảnh là một trang ký ức vô giá, khắc ghi những nụ cười, tình bạn và tuổi trẻ rực rỡ bên nhau 💖
+      </p>
+    </div>
+
+    <div class="story-timeline">
+      <!-- CHƯƠNG 1 -->
+      <article class="story-item story-item--left">
+        <div class="story-item__photo-col">
+          <div class="story-card-photo" onclick="openLightbox('images/ảnh lớp_1.jpg')">
+            <div class="story-card-photo__tag">Chương 01</div>
+            <img
+              src="images/ảnh lớp_1.jpg"
+              alt="Ảnh kỷ niệm lớp 9A1 - Nụ cười rạng rỡ"
+              loading="lazy"
+              width="600"
+              height="400"
+            />
+            <div class="story-card-photo__zoom">🔍 Xem ảnh rõ nét</div>
+          </div>
+        </div>
+        <div class="story-item__content-col">
+          <div class="story-note">
+            <div class="story-note__chapter">✨ CHƯƠNG 01 • NỤ CƯỜI NGÀY MỚI</div>
+            <h3 class="story-note__title">Những Nụ Cười Tỏa Nắng Dưới Mái Trường</h3>
+            <p class="story-note__text">
+              Có những ngày tháng bình dị mà sau này ngoảnh lại mới thấy trân quý biết bao. Nụ cười rạng rỡ, trong veo của các bạn nữ 9A1 luôn làm bừng sáng cả góc lớp học, xua tan đi sự mệt mỏi của những tiết học dài và biến mỗi ngày đến trường thành một ngày tràn ngập niềm vui.
+            </p>
+            <p class="story-note__text">
+              Cảm ơn các bạn vì sự hiện diện đáng yêu, vì những câu chuyện rôm rả giờ ra chơi đã dệt nên một tuổi học trò đầy ắp tiếng cười.
+            </p>
+            <blockquote class="story-note__quote">
+              "Thanh xuân đẹp nhất không phải là bầu trời rực rỡ, mà là được ngắm nhìn bầu trời ấy cùng các bạn."
+            </blockquote>
+            <div class="story-note__tags">
+              <span>#NuCuoi9A1</span>
+              <span>#NangSomSanTruong</span>
+              <span>#TuoiHocTro</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CHƯƠNG 2 -->
+      <article class="story-item story-item--right">
+        <div class="story-item__photo-col">
+          <div class="story-card-photo" onclick="openLightbox('images/ảnh lớp_2.jpg')">
+            <div class="story-card-photo__tag">Chương 02</div>
+            <img
+              src="images/ảnh lớp_2.jpg"
+              alt="Ảnh kỷ niệm lớp 9A1 - Gắn kết yêu thương"
+              loading="lazy"
+              width="600"
+              height="450"
+            />
+            <div class="story-card-photo__zoom">🔍 Xem ảnh rõ nét</div>
+          </div>
+        </div>
+        <div class="story-item__content-col">
+          <div class="story-note">
+            <div class="story-note__chapter">💖 CHƯƠNG 02 • GẮN KẾT YÊU THƯƠNG</div>
+            <h3 class="story-note__title">Bên Nhau Vượt Qua Từng Thử Thách</h3>
+            <p class="story-note__text">
+              Lớp 9A1 không chỉ đơn thuần là một tập thể học chung một phòng học, mà là một gia đình nhỏ. Ở đó, các bạn nữ luôn là sợi dây kết nối dịu dàng, chu đáo chăm lo từng hoạt động của lớp, luôn đồng lòng sẻ chia từ những chiếc bánh vụn vặt đến những mẹo giải bài tập hóc búa.
+            </p>
+            <p class="story-note__text">
+              Tình bạn được xây đắp qua những lần cùng nhau làm báo tường, cùng nhau tập văn nghệ hay đơn giản là cùng nhau ngồi trực nhật... đó là những món quà vô giá của những năm tháng niên thiếu.
+            </p>
+            <blockquote class="story-note__quote">
+              "Kỷ niệm cùng nhau là thứ duy nhất mà thời gian và khoảng cách chẳng bao giờ có thể xóa nhòa."
+            </blockquote>
+            <div class="story-note__tags">
+              <span>#TinhBan9A1</span>
+              <span>#DongDoiSatCanh</span>
+              <span>#GiaDinhNho</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CHƯƠNG 3 -->
+      <article class="story-item story-item--left">
+        <div class="story-item__photo-col">
+          <div class="story-card-photo" onclick="openLightbox('images/ảnh lớp_3.jpg')">
+            <div class="story-card-photo__tag">Chương 03</div>
+            <img
+              src="images/ảnh lớp_3.jpg"
+              alt="Ảnh kỷ niệm lớp 9A1 - Mỗi bạn một vẻ đẹp độc bản"
+              loading="lazy"
+              width="600"
+              height="450"
+            />
+            <div class="story-card-photo__zoom">🔍 Xem ảnh rõ nét</div>
+          </div>
+        </div>
+        <div class="story-item__content-col">
+          <div class="story-note">
+            <div class="story-note__chapter">🌷 CHƯƠNG 03 • RỰC RỠ SẮC MÀU</div>
+            <h3 class="story-note__title">Mỗi Bạn Nữ Là Một Đóa Hoa Độc Bản</h3>
+            <p class="story-note__text">
+              Trong khu vườn 9A1, mỗi bạn nữ đều mang một nét tính cách thật đáng yêu và độc đáo: có bạn dịu dàng nhỏ nhẹ, có bạn sôi nổi hoạt bát, có bạn lại sâu lắng và kiên định. Nhưng khi cùng nhau quy tụ lại, tất cả hòa quyện tạo nên bức tranh tập thể rực rỡ và hài hòa nhất.
+            </p>
+            <p class="story-note__text">
+              Ngày 20/10 chính là dịp để nhắc nhở các bạn rằng: Hãy luôn tự hào về chính bản thân mình, bởi vì mỗi người trong các bạn đều xinh đẹp, thông minh và vô cùng đặc biệt!
+            </p>
+            <blockquote class="story-note__quote">
+              "Hãy tự tin bung nở rực rỡ theo cách của riêng bạn, bởi vì bạn là đóa hoa độc nhất vô nhị trên thế gian này."
+            </blockquote>
+            <div class="story-note__tags">
+              <span>#ToaSangRiengBiet</span>
+              <span>#BongHoa9A1</span>
+              <span>#TuTinYeuDoi</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CHƯƠNG 4 -->
+      <article class="story-item story-item--right">
+        <div class="story-item__photo-col">
+          <div class="story-card-photo" onclick="openLightbox('images/ảnh lớp 4.jpg')">
+            <div class="story-card-photo__tag">Chương 04</div>
+            <img
+              src="images/ảnh lớp 4.jpg"
+              alt="Ảnh kỷ niệm lớp 9A1 - Khoảnh khắc đáng nhớ"
+              loading="lazy"
+              width="600"
+              height="357"
+            />
+            <div class="story-card-photo__zoom">🔍 Xem ảnh rõ nét</div>
+          </div>
+        </div>
+        <div class="story-item__content-col">
+          <div class="story-note">
+            <div class="story-note__chapter">⏳ CHƯƠNG 04 • KỶ NIỆM LẮNG ĐỌNG</div>
+            <h3 class="story-note__title">Những Giây Phút Khắc Sâu Trong Tim</h3>
+            <p class="story-note__text">
+              Năm cuối cấp 9 trôi qua tựa như một cái chớp mắt. Những bảng đen, phấn trắng, những lời giảng bài của thầy cô và từng tiếng trống trường thân thương đang dần đếm ngược. Từng bức ảnh lưu lại hôm nay chính là chiếc vé khứ hồi đưa ta trở về với những tháng ngày ngây ngô, tươi đẹp nhất.
+            </p>
+            <p class="story-note__text">
+              Mong rằng dù mai này có lớn khôn, có đi xa đến đâu, khi ngắm nhìn lại những khoảnh khắc này, các bạn vẫn sẽ mỉm cười nhớ về một 9A1 chan chứa yêu thương.
+            </p>
+            <blockquote class="story-note__quote">
+              "Thời gian rồi sẽ trôi đi, nhưng những ký ức dưới mái trường 9A1 sẽ còn đọng mãi trong ngăn kéo thời gian."
+            </blockquote>
+            <div class="story-note__tags">
+              <span>#KhacGhiKyUc</span>
+              <span>#CuoiCap9A1</span>
+              <span>#NhungThangNamAy</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CHƯƠNG 5 -->
+      <article class="story-item story-item--left">
+        <div class="story-item__photo-col">
+          <div class="story-card-photo" onclick="openLightbox('images/ảnh lớp_5.jpg')">
+            <div class="story-card-photo__tag">Chương 05</div>
+            <img
+              src="images/ảnh lớp_5.jpg"
+              alt="Ảnh kỷ niệm lớp 9A1 - Chặng đường phía trước"
+              loading="lazy"
+              width="600"
+              height="450"
+            />
+            <div class="story-card-photo__zoom">🔍 Xem ảnh rõ nét</div>
+          </div>
+        </div>
+        <div class="story-item__content-col">
+          <div class="story-note">
+            <div class="story-note__chapter">🌈 CHƯƠNG 05 • LỜI HỨA THANH XUÂN</div>
+            <h3 class="story-note__title">Tự Tin Sải Cánh Chạm Tới Ước Mơ</h3>
+            <p class="story-note__text">
+              Hành trình phía trước còn có những kỳ thi chuyển cấp quan trọng, những chặng đường mới đang vẫy gọi. Chúc tất cả các bạn nữ của lớp 9A1 luôn giữ vững sự thông minh, kiên cường và niềm lạc quan vốn có. Chúc các bạn đạt được điểm số thật cao, bước vào ngôi trường cấp ba mà mình mơ ước.
+            </p>
+            <p class="story-note__text">
+              Và trên hết, chúc các bạn luôn được chở che, luôn được hạnh phúc và mãi là những cô gái tuyệt vời nhất trong mắt mọi người xung quanh!
+            </p>
+            <blockquote class="story-note__quote">
+              "Phía trước là biển rộng trời cao, chúc các bạn luôn rạng rỡ và tự tin sải cánh bay xa."
+            </blockquote>
+            <div class="story-note__tags">
+              <span>#UocMoCapBa</span>
+              <span>#VungTinTuongLai</span>
+              <span>#MaiLaGiaDinh9A1</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       GÓC LỜI CHÚC Ý NGHĨA & TƯƠNG TÁC
+       ========================================== -->
+  <section class="wishes-section" id="wishes">
+    <div class="wishes-section__header">
+      <span class="wishes-section__badge">💌 20 THÁNG 10</span>
+      <h2 class="wishes-section__heading">Những Lời Chúc Gửi Đến Một Nửa Thế Giới</h2>
+      <p class="wishes-section__subheading">
+        Nhấn vào từng chiếc thiệp để mở lời nhắn gửi yêu thương và bấm nút thả tim chúc mừng nhé!
+      </p>
+    </div>
+
+    <!-- Lưới thiệp chúc mừng tương tác -->
+    <div class="wishes-grid">
+      <div class="wish-card" onclick="toggleWishCard(this)">
+        <div class="wish-card__icon">🌸</div>
+        <h4 class="wish-card__title">Xinh Đẹp & Tươi Trẻ</h4>
+        <p class="wish-card__desc">
+          Chúc các bạn luôn rạng rỡ như những đóa hoa xuân, nụ cười luôn nở trên môi dù ở bất cứ nơi đâu!
+        </p>
+        <span class="wish-card__hint">💖 Chạm để nhận tim</span>
+      </div>
+
+      <div class="wish-card" onclick="toggleWishCard(this)">
+        <div class="wish-card__icon">⭐</div>
+        <h4 class="wish-card__title">Học Giỏi & Thành Công</h4>
+        <p class="wish-card__desc">
+          Chúc các bạn vượt qua mọi kỳ thi sắp tới thật xuất sắc, đạt trọn nguyện vọng vào ngôi trường mơ ước!
+        </p>
+        <span class="wish-card__hint">🎯 Chạm để nhận tim</span>
+      </div>
+
+      <div class="wish-card" onclick="toggleWishCard(this)">
+        <div class="wish-card__icon">🎁</div>
+        <h4 class="wish-card__title">Ngập Tràn Yêu Thương</h4>
+        <p class="wish-card__desc">
+          Chúc các bạn hôm nay nhận được thật nhiều hoa, nhiều quà và những lời chúc ngọt ngào nhất từ mọi người!
+        </p>
+        <span class="wish-card__hint">🌷 Chạm để nhận tim</span>
+      </div>
+
+      <div class="wish-card" onclick="toggleWishCard(this)">
+        <div class="wish-card__icon">💎</div>
+        <h4 class="wish-card__title">Bản Lĩnh & Tự Tin</h4>
+        <p class="wish-card__desc">
+          Mỗi bạn là một cá tính tuyệt vời, hãy luôn kiên định, tự tin tỏa sáng rực rỡ theo cách của riêng mình!
+        </p>
+        <span class="wish-card__hint">✨ Chạm để nhận tim</span>
+      </div>
+    </div>
+
+    <!-- Nút bắn hiệu ứng tim & hoa -->
+    <div class="celebrate-btn-wrap">
+      <button class="celebrate-btn" id="celebrate-btn" onclick="triggerHeartShower()">
+        💐 Thả Tim & Hoa Chúc Mừng 20/10 💖
+      </button>
+      <p class="celebrate-subtext">Cùng bấm để tạo cơn mưa hoa và tim ngập tràn màn hình!</p>
+    </div>
+  </section>
+
+  <!-- ============================
+       LIGHTBOX — PHÓNG TO ẢNH
+       ============================ -->
+  <div class="lightbox" id="lightbox" aria-label="Phóng to ảnh" onclick="closeLightbox()">
+    <button class="lightbox__close" aria-label="Đóng" onclick="closeLightbox()">✕</button>
+    <img class="lightbox__img" id="lightbox-img" alt="Ảnh phóng to" onclick="event.stopPropagation()" />
+  </div>
+
+  <!-- Container chứa hiệu ứng tim bay -->
+  <div class="floating-hearts-layer" id="hearts-layer" aria-hidden="true"></div>
+
+  <!-- ============================
+       FOOTER
+       ============================ -->
+  <footer class="footer">
+    <div class="footer__content">
+      <p class="footer__class">🌸 TẬP THỂ LỚP 9A1 — HAPPY VIETNAMESE WOMEN'S DAY 20/10 🌸</p>
+      <p class="footer__author">-làm bởi Phạm Minh Đan-</p>
+      <p class="footer__copy">Kính chúc Cô và các bạn nữ luôn hạnh phúc, bình an & rạng ngời!</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
